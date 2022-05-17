@@ -61,5 +61,10 @@ namespace rudgery_S00214383_FinalExam
         public RentalData() : base("MyRental0956") { }
 
         public DbSet<RentalProperty> AllRentals { get; set; }
+
+        public static implicit operator RentalData(MainWindow v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

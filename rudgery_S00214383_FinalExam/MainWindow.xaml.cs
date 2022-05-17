@@ -59,5 +59,14 @@ namespace rudgery_S00214383_FinalExam
             }
 
         }
+
+        private void btnAdd_Click(object sender, RoutedEventArgs e)
+        {
+            //creating second windown
+            RentalData main = Owner as MainWindow;
+
+            //stablish connection / link
+          
+        }
     }
 }
