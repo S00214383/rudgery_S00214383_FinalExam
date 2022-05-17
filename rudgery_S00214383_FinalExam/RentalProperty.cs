@@ -20,7 +20,15 @@ namespace rudgery_S00214383_FinalExam
 
         public string Description { get; set; }
 
-        
+        //method to increase rent by percentage
+        public decimal IncreaseRent(decimal price)
+        {
+            decimal percentage1 = 0.1m;
+            decimal percentage2 = 0.2m;
+           
+           return Price *= price;
+
+        }
 
     }
 }
