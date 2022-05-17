@@ -21,7 +21,7 @@ namespace rudgery_S00214383_FinalExam
     public partial class MainWindow : Window
     {
 
-        List<RentalProperty> allProperties;
+        public List<RentalProperty> allProperties;
         public MainWindow()
         {
             InitializeComponent();
@@ -66,7 +66,7 @@ namespace rudgery_S00214383_FinalExam
             RentalData main = Owner as MainWindow;
 
             //stablish connection / link
-          
+           main.AllRentals
         }
     }
 }
