@@ -18,7 +18,7 @@ namespace DataManagment
             {
                 RentalProperty p1 = new RentalProperty()
                 {
-                    Price = 400,
+                    Price = 300,
                     RentalType = "Flat",
                     //TypeOfRental = RentalType.Flat,
                     Description = "A modern 1 bedroom apartment located close to the campus." +
@@ -29,7 +29,7 @@ namespace DataManagment
 
                 RentalProperty p2 = new RentalProperty()
                 {
-                    Price = 400,
+                    Price = 350,
                     //TypeOfRental = RentalType.Share,
                     RentalType = "Share",
                     Description = "A modern 4 bedroom townhouse located 2 km from the campus. " +

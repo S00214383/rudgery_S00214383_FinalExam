@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:rudgery_S00214383_FinalExam"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="800"
         
+        Loaded="Window_Loaded"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="20*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Property Listing" FontSize="24" HorizontalAlignment="Center" Margin="10" VerticalAlignment="Top"/>
+        <ListBox Grid.Row="2" Grid.Column="0" Margin="15" SelectionChanged="lbxHouses_SelectionChanged" Name="lbxHouses" Grid.ColumnSpan="1"></ListBox>
     </Grid>
 </Window>

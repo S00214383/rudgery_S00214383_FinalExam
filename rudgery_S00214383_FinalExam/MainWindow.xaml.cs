@@ -20,9 +20,35 @@ namespace rudgery_S00214383_FinalExam
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        List<RentalProperty> allProperties;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+    
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            //Loading data to its start
+
+            RentalData db = new RentalData();
+
+            var query = from h in db.AllRentals
+                        orderby h.Price 
+
+                        select h;
+
+            allProperties = query.ToList();
+            lbxHouses.ItemsSource = allProperties;
+
+        }
+
+        //displaying selected house from listbox
+        private void lbxHouses_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

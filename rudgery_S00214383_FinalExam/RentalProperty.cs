@@ -31,9 +31,16 @@ namespace rudgery_S00214383_FinalExam
 
         }
 
+        //method to string 
+        public override string ToString()
+        {
+            return $"{Location}  {Price:c}";
+            
+        }
 
 
-        
+
+
     }
 
     //code to create a database
