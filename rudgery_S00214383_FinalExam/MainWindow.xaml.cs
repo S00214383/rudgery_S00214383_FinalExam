@@ -48,6 +48,15 @@ namespace rudgery_S00214383_FinalExam
         //displaying selected house from listbox
         private void lbxHouses_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            RentalProperty selected = lbxHouses.SelectedItem as RentalProperty;
+
+            //check either null or not
+            if (selected != null)
+            {
+                //update display
+                tblxHousesDetails.Text = selected.GetDetails();
+
+            }
 
         }
     }

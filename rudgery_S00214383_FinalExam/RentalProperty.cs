@@ -38,6 +38,15 @@ namespace rudgery_S00214383_FinalExam
             
         }
 
+        //method to outpput details of houses
+         public string GetDetails()
+        {
+            return $"House Description: {Description}\n" +
+                   $"Rental Type: {RentalType} \n" +
+                   $"Location:   {Location}\n";
+                   
+
+        }
 
 
 

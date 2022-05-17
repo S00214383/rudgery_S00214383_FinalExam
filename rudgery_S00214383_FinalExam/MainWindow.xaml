@@ -21,5 +21,6 @@
         </Grid.ColumnDefinitions>
         <Label Content="Property Listing" FontSize="24" HorizontalAlignment="Center" Margin="10" VerticalAlignment="Top"/>
         <ListBox Grid.Row="2" Grid.Column="0" Margin="15" SelectionChanged="lbxHouses_SelectionChanged" Name="lbxHouses" Grid.ColumnSpan="1"></ListBox>
+        <TextBlock Grid.Row="1" Grid.Column="1" Margin="5" Name="tblxHousesDetails" TextWrapping="Wrap" ></TextBlock>
     </Grid>
 </Window>
