@@ -21,6 +21,8 @@ namespace rudgery_S00214383_FinalExam
 
         public string Description { get; set; }
 
+        public string HouseIcon { get; set; }   
+
         //method to increase rent by percentage
         public decimal IncreaseRent(decimal price)
         {

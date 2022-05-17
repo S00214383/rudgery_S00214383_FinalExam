@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rudgery_S00214383_FinalExam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{2856EDF8-26C4-44BC-B846-F7276F15E0FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManagment", "DataManagment\DataManagment.csproj", "{8A6BBBF9-6078-42E7-9731-E52A75BE0613}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMangment", "DataMangment\DataMangment.csproj", "{B92DD339-15F5-4487-B51E-ABE1C9C522BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{2856EDF8-26C4-44BC-B846-F7276F15E0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2856EDF8-26C4-44BC-B846-F7276F15E0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2856EDF8-26C4-44BC-B846-F7276F15E0FE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A6BBBF9-6078-42E7-9731-E52A75BE0613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A6BBBF9-6078-42E7-9731-E52A75BE0613}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A6BBBF9-6078-42E7-9731-E52A75BE0613}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A6BBBF9-6078-42E7-9731-E52A75BE0613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92DD339-15F5-4487-B51E-ABE1C9C522BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92DD339-15F5-4487-B51E-ABE1C9C522BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92DD339-15F5-4487-B51E-ABE1C9C522BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92DD339-15F5-4487-B51E-ABE1C9C522BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

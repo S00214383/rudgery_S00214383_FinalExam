@@ -4,19 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using rudgery_S00214383_FinalExam;
-
-namespace DataManagment
+namespace DataMangment2
 {
-     public   class Program
+    class Program
     {
         static void Main(string[] args)
         {
             //creating database
-            RentalData db = new RentalData();
+            RentalData db2 = new RentalData();
 
-            using(db)
+            using (db2)
             {
-                RentalProperty p1 = new RentalProperty()
+                RentalProperty p12 = new RentalProperty()
                 {
                     Price = 300,
                     RentalType = "Flat",
@@ -28,7 +27,7 @@ namespace DataManagment
                     HouseIcon = "/images/Flat.png"
                 };
 
-                RentalProperty p2 = new RentalProperty()
+                RentalProperty p22 = new RentalProperty()
                 {
                     Price = 350,
                     //TypeOfRental = RentalType.Share,
@@ -41,7 +40,7 @@ namespace DataManagment
                     HouseIcon = "/images/share.png"
                 };
 
-                RentalProperty p3 = new RentalProperty()
+                RentalProperty p32 = new RentalProperty()
                 {
                     Price = 400,
                     //TypeOfRental = RentalType.Share,
@@ -55,22 +54,22 @@ namespace DataManagment
 
                 Console.WriteLine("Properties has been created");
 
-                db.AllRentals.Add(p1);
-                db.AllRentals.Add(p2);
-                db.AllRentals.Add(p3);
+                db2.AllRentals.Add(p12);
+                db2.AllRentals.Add(p22);
+                db2.AllRentals.Add(p32);
 
                 //adding data do the db
                 Console.WriteLine("Data has been added to the database");
 
                 //saving data
-                db.SaveChanges();
+                db2.SaveChanges();
                 Console.WriteLine("Data saved");
 
                 Console.WriteLine("Press any key to close");
 
                 Console.ReadLine();
-            }
 
+            }
         }
     }
 }
