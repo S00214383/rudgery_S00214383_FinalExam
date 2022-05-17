@@ -63,10 +63,13 @@ namespace rudgery_S00214383_FinalExam
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
             //creating second windown
-            RentalData main = Owner as MainWindow;
+            RentalData secondWindow = new RentalData();
 
             //stablish connection / link
-           main.AllRentals
-        }
+            //secondWindow.owner = this;
+
+            //secondWindow.ShowDialog();
+                
+            }
     }
 }
