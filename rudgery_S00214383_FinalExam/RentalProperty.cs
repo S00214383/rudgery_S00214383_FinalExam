@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,7 @@ namespace rudgery_S00214383_FinalExam
         //properties
         public int ID { get; set; }
 
-        public enum RentalType { House, Flat, Share }
+        public string RentalType { get; set; }
 
         public string  Location { get; set; }
 
@@ -30,5 +31,17 @@ namespace rudgery_S00214383_FinalExam
 
         }
 
+
+
+        
+    }
+
+    //code to create a database
+    
+    public class RentalData : DbContext
+    {
+        public RentalData() : base("MyRental0956") { }
+
+        public DbSet<RentalProperty> AllRentals { get; set; }
     }
 }
